@@ -1,0 +1,22 @@
+Відкрити файл в папці .medusa/client/index.css
+
+і замінити вміст на цей: 
+
+@import "@medusajs/dashboard/css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+select[name="language"] {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 4px !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important;
+  border: 1px solid #ccc !important;
+  background: rgb(0, 0, 0) !important;
+}
