@@ -14,8 +14,8 @@ module.exports = defineConfig({
     },
   },
   // modules: {
-  //   translation: {
-  //     resolve: "./modules/translation",
+  //   customProductService: {
+  //     resolve: "./services/custom-product-service",
   //     options: {},
   //   },
   // },
