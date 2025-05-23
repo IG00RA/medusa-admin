@@ -11,8 +11,8 @@ const ProductDimensionsWidget = ({ data: product }) => {
   );
 };
 
-export const config = defineWidgetConfig({
-  zone: "product.details.after",
-});
+// export const config = defineWidgetConfig({
+//   zone: "product.details.after",
+// });
 
 export default ProductDimensionsWidget;
